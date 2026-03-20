@@ -4,7 +4,7 @@ const port = 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello, Docker Hub! This is my 1.15 homework.');
+  res.end('Привет, Railway! Это мое задание 1.16!');
 });
 
 server.listen(port, () => {
